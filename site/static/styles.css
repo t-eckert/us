@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@400;700&display=swap");
 
+/* Variables */
+:root {
+  /* Colors */
+  --page-background: #ebf8ff;
+}
+
 html {
   font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: var(--page-background);
 }
+
+/* Typography */
 
 h1,
 h2,
@@ -11,4 +21,41 @@ h4,
 h5,
 h6 {
   font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* Election Card */
+
+.election-card {
+  border: 1px #000000 solid;
+  border-radius: 0.5rem;
+  width: fit-content;
+  background-color: white;
+}
+
+.election-date {
+  border-bottom: 1px #000000 solid;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.election-name {
+  padding: 2rem 2rem;
+  font-size: 2rem;
+  max-width: 15rem;
 }
